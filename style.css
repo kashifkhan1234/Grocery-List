@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgb(255, 0, 221), rgb(0, 217, 255));
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.container .box{
+    position: relative;
+    width: 400px;
+    background: rgb(251, 251, 251);
+    padding: 20px;
+    box-shadow: 15px 15px 15px black;
+}
+
+.container .box h2{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 15px;
+    width: 100%;
+text-align: center;
+}
+
+.container .box #grocery{
+position: relative;
+width: 100%;
+display: flex;
+}
+
+.container .box #grocery input{
+position: relative;
+width: 100%;
+padding: 10px;
+border: 1px solid gray transparent;
+outline: none;
+}
+
+.container .box #grocery button{
+    background: rgb(44, 169, 44);
+    color: rgb(123, 123, 123);
+    min-width: none;
+    font-weight: 588;
+    border: 1px solid #333;
+    cursor: pointer;
+    outline: none;
+}
+
+.container ol{
+    position: relative;
+    padding: 10px 20px 20px 40px;
+    width: 100%;
+    min-height: 300px;
+    background: white repeating-linear-gradient(transparent 0% , transparent 99% , black 99% , black 100%);
+    box-shadow: 15px 15px 15px rgb(36, 36, 36);
+   background-size: 50px 58px ;
+}
+
+.container ol li{
+    position: relative;
+    font-size: 1.5rem;
+    height: 50px;
+}
+
+.container ol li .remove{
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    left: 320px;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    background:rgb(251, 91, 47);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background:rgb(251, 91, 47);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
